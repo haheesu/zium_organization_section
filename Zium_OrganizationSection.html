@@ -35,6 +35,23 @@
       margin : 0px auto;
     }
 
+    .embed-container { 
+      position: relative; 
+      padding-bottom: 56.25%; 
+      height: 0; 
+      overflow: hidden; 
+      max-width: 100%; 
+    } 
+    
+    .embed-container iframe, 
+    .embed-container object, 
+    .embed-container embed {
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 100%;
+    }
     </style>
 </head>
 <body data-spy="scoll" data-target=".navbar" data-offset="50">
@@ -128,7 +145,21 @@
   </form>
 
   <br><br>
-  
+
+  <div class="container" style="text-align: center;">
+    <h2>지음이란?</h2>
+    <p>백아(佰牙)와 종자기(鍾子期)처럼 서로의 내면까지 공감하는 깊은 우정을 지음(知音)이라 일컫습니다.<br>
+
+      전문성에 담겨있는 이해와 배려까지<br>
+      
+      지음지식서비스는 오래된 벗처럼 문제해결의 과정을 고객과 함께 하고자 합니다.</p><br>
+    <div class="embed-container">
+      <iframe src='https://www.youtube.com/embed/PgrHlqQ7Gnk' frameborder='0' allowfullscreen></iframe>    
+    </div>
+  </div>
+
+  <br><br>
+
   <form action="/action_page.php" class="was-validated border border-secondary rounded" style="width: 60%;">
     
     <br><br>
